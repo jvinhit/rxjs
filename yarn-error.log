@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\jvinh\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add rxjs webpack webpack-dev-sever typescript ts-loader
+
+PATH: 
+  C:\cmder\bin;C:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\cmder\vendor\conemu-maximus5;C:\cmder\vendor\conemu-maximus5\ConEmu;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\Ruby24-x64\bin;C:\Users\jvinh\AppData\Local\Microsoft\WindowsApps;C:\Users\jvinh\AppData\Roaming\npm;C:\MongoDB\Server\4.0\bin;C:\Program Files\Git\mingw64;C:\Program Files\Git\usr\bin;C:\cmder
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  8.11.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/webpack-dev-sever: Not found
+      at Request.params.callback [as _callback] (C:\Users\jvinh\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:64202:18)
+      at Request.self.callback (C:\Users\jvinh\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:137468:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (C:\Users\jvinh\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:138440:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (C:\Users\jvinh\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:138362:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "RxJS",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
